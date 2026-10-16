@@ -1,8 +1,29 @@
-.DS_Store
-Thumbs.db
+# Python and Jupyter
 .ipynb_checkpoints/
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
+.pytest_cache/
+
+# Local environments and credentials
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Extracted datasets and generated checkpoints
+/Real And AI images(processed)/
+/RealSynthX_processed/
+/real-and-ai-generated-images/
+*.pth
+*.pt
+
+# Editors and operating systems
 .vscode/
 .idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
